@@ -6,7 +6,7 @@
 		    <ul class="list">
 		      <li v-for="item in lists" v-text="item.title"></li>
 		    </ul>
-			<a href="#">点我跳转</a>
+			<a href="#">返回</a>
 		</div>
   	</div>
 </template>

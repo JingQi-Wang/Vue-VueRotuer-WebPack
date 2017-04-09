@@ -6,7 +6,8 @@
 		    <ul class="list">
 		      <li v-for="item in lists" v-text="item.title"></li>
 		    </ul>
-		    <a href="#/content">点我跳转</a>
+		    <a href="#/content">content</a>
+        <a href="#/user">user</a>
 	    </div>
   	</div>
 </template>

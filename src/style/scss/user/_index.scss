@@ -1,0 +1,12 @@
+.user{
+	.logo {
+		color: blue;
+	}
+	.list {
+		line-height:2;
+		li {
+			cursor:pointer;
+			border-bottom: 1px solid #ddd;
+		}
+	}
+}
