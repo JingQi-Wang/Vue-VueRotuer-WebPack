@@ -2,7 +2,7 @@
 <template>
   	<div>
 		  <div class="index">
-		    <h1 class="logo">cnodejs Api Test</h1>
+		    <h1 class="logo" id="indexLogo">cnodejs Api Test</h1>
 		    <ul class="list">
 		      <li v-for="item in lists" v-text="item.title"></li>
 		    </ul>
@@ -33,4 +33,5 @@ export default {
     },
   },
 }
+
 </script>
